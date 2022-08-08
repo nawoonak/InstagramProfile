@@ -12,17 +12,8 @@ html {
 body {
     background-color: var(--bacground-color);
     width: 100%;
-    /* height: auto;
-    direction: ltr;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:center ; */
 }
 
-/* .MAIN-CONTAINER {
-    width:1500px; 
-} */
 /* ////////////////Headings Styles////////////////// */
 
  .h1 , .h2 , .h3 , .h4 , .h5 , .h6 {
@@ -31,7 +22,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     line-height: 40px;
     font-style: normal;
-    
 }
 
 .h1 {
@@ -116,6 +106,7 @@ header{
     color: var(--dark-color);
 }
 /* /////////////////////////Header End//////////////////////// */
+
 main{
     background-color: var(--bacground-color); 
     position: relative;
@@ -125,8 +116,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
 }
+
 /* /////////////////////////Section 1 Start//////////////////////// */
 .bio-top {
     width: 100%;
@@ -135,7 +126,6 @@ main{
     justify-content: flex-start;
     align-items: flex-start;
     margin: 16px 0 24px;
-    /* box-sizing: border-box; */
 }
 
 .prof-pic div{
@@ -167,7 +157,6 @@ main{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
     font-weight: 100;
     font-size: 30px;  
-
 }
 
 .bio-top-right .edit-prof button {
@@ -384,6 +373,7 @@ main{
 }
 /* /////////////////////////Section 6 End//////////////////////// */
 
+/* /////////////////////////Footer Start//////////////////////// */
 .footer-container ul { 
     width: 100%;
     height: 44px;
@@ -408,9 +398,8 @@ main{
     border-radius: 50%;
     outline: 1px solid var(--dark-color);
     outline-offset: 2px;
-
 }
-/* /////////////////////////Footer Start//////////////////////// */
-
-
 /* /////////////////////////Footer End//////////////////////// */
+
+
+/* The End ^-^ */
