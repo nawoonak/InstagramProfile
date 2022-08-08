@@ -145,6 +145,12 @@ main{
     height: 77px;
     width: 60%;
     color: var(--dark-color);
+    scrollbar-width: none; /* hiding scrollbar for IE & Edge*/
+    -ms-overflow-style: none; /* hiding scrollbar for Fire fox*/
+}
+
+.bio-top-right ::-webkit-scrollbar{ /* hiding scrollbar for Chrome*/
+    display: none;
 }
 
 .bio-t-r-username {
@@ -164,6 +170,7 @@ main{
     border-radius: 5px;
     height: 30px;
     width: 100%;
+    max-width: 250px;
     background-color: var(--bacground-color);
     padding: 5px 9px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
