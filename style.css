@@ -397,7 +397,7 @@ main{
     border-top: 1px solid var(--light-color);
 }
 
-.footer-icon a img {
+.footer-icon  img {
     width: 20px;
     height: 20px;
 }
@@ -409,6 +409,8 @@ main{
     outline: 1px solid var(--dark-color);
     outline-offset: 2px;
 }
+
+
 /* /////////////////////////Footer End//////////////////////// */
 
 
