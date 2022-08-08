@@ -365,8 +365,8 @@ main{
 }
 
 .video img:first-child, .multi img:first-child {
-    width: 40px;
-    height: 40px;
+    width: 20%;
+    height: 20%;
     position: absolute;
     right: 5%;
     top: 5%;
