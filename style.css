@@ -336,8 +336,8 @@ main{
 .post-bar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap:wrap;
     width: 100%;
     height: auto;
@@ -365,8 +365,8 @@ main{
 }
 
 .video img:first-child, .multi img:first-child {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     right: 5%;
     top: 5%;
@@ -374,6 +374,7 @@ main{
 /* /////////////////////////Section 6 End//////////////////////// */
 
 /* /////////////////////////Footer Start//////////////////////// */
+
 .footer-container ul { 
     width: 100%;
     height: 44px;
