@@ -383,7 +383,9 @@ main{
 /* /////////////////////////Section 6 End//////////////////////// */
 
 /* /////////////////////////Footer Start//////////////////////// */
-
+.footer-container {
+    margin-top: 44px;
+}
 .footer-container ul { 
     width: 100%;
     height: 44px;
